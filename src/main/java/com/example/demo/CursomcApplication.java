@@ -27,6 +27,7 @@ public class CursomcApplication implements CommandLineRunner{
 		Categoria cat2 = new Categoria(null, "Escritorio");
 		
 		categoriaRepository.saveAll(Arrays.asList(cat1,cat2));
+		
 	}
 
 }
